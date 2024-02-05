@@ -1,0 +1,53 @@
+.data {
+    display: flex;
+    padding: 0 20px;
+}
+
+
+.author {
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: aqua;
+
+
+
+
+    img {
+        margin-top: 20px;
+
+        width: 150px;
+        border-radius: 50%;
+
+    }
+
+    p {}
+
+}
+
+.lists {
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 40px;
+    background-color: aquamarine;
+    margin-top: 40px;
+
+    ul {
+        list-style: none;
+
+
+
+    }
+
+    .lists__sections {
+
+        margin-bottom: 30px;
+    }
+
+
+
+
+}
